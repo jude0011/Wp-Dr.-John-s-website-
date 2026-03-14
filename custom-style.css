@@ -1,0 +1,1793 @@
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('../fonts/SofiaPro-Medium.woff2') format('woff2'),
+      url('../fonts/SofiaPro-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('../fonts/SofiaPro-ExtraLight.woff2') format('woff2'),
+      url('../fonts/SofiaPro-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('../fonts/SofiaPro-Light.woff2') format('woff2'),
+      url('../fonts/SofiaPro-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('../fonts/SofiaPro.woff2') format('woff2'),
+      url('../fonts/SofiaPro.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('../fonts/SofiaPro-SemiBold.woff2') format('woff2'),
+      url('../fonts/SofiaPro-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('../fonts/SofiaPro-Bold.woff2') format('woff2'),
+      url('../fonts/SofiaPro-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('../fonts/SofiaPro-Black.woff2') format('woff2'),
+      url('../fonts/SofiaPro-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('slick.css');
+@import url('slick-theme.css');
+
+
+
+
+body {font-family: 'Sofia Pro'; background:#fff;margin: 0; padding: 0; font-size: 16px; overflow-x:  hidden;}
+p{font-family: 'Sofia Pro';padding: 0px; margin: 0px 0 15px; font-size: 16px; line-height: 25px; color: #232323; font-weight: normal;}
+a{padding: 0px; margin: 0px; outline: none;}
+ul{ list-style: none; padding: 0px; margin: 0px;}
+ul li{ padding: 0px; margin: 0px;}
+
+h1, h2, h3, h4, h5, h6{padding: 0px; margin: 0px;}
+
+a{transition: all ease-in-out 0.5s; text-decoration:none; color: #2e75b5;}
+a:hover{ outline: none !important; text-decoration: none; color: #2e75b5;}
+a:active{ outline: none !important; text-decoration: none;}
+a:focus{ outline: none !important; text-decoration: none;}
+input[type="text"]::-webkit-input-placeholder { opacity: 1; }
+input[type="text"]::-moz-placeholder { opacity: 1; }
+input[type="search"]::-webkit-input-placeholder { opacity: 1; }
+input[type="search"]::-moz-placeholder { opacity: 1; }
+input[type="email"]::-webkit-input-placeholder { opacity: 1; }
+input[type="email"]::-moz-placeholder { opacity: 1; }
+input[type="tel"]::-webkit-input-placeholder { opacity: 1; }
+input[type="tel"]::-moz-placeholder { opacity: 1; }
+
+
+textarea::-moz-placeholder { opacity: 1; }
+textarea::-webkit-placeholder { opacity: 1; }
+.clearfix:before, .clearfix:after {content: " ";display: table;}
+.clearfix:after {clear: both;}
+
+img{max-width: 100%;image-rendering: -webkit-optimize-contrast;}
+*::-moz-selection {background:#10bcf4;color: #fff;}
+
+
+
+
+section{ padding-top:60px; padding-bottom: 60px;}
+.container-custom1{ max-width: 1530px; margin: 0 auto; width: 100%; padding-left: 15px; padding-right: 15px;}
+
+
+.title {margin: 0 0 50px; padding: 0;font-size:46px;line-height:46px;font-weight:700;color: #292929;text-align: center;}
+.title h2{margin: 0 0 20px;font-size: 43px; color: #232323; font-weight: 700; line-height: 56px;text-transform: uppercase;}
+.title h6{ margin: 0 0 10px; font-weight: 600; font-size: 22px; color: #232323; letter-spacing: 0;}
+
+
+
+.title2 {margin: 0 0 40px; padding: 0;font-size:46px;line-height:46px;font-weight:700;color: #292929;text-align: center; }
+.title2 h6{ margin: 0 0 10px; font-weight: bold; font-size: 20px; color: #1a1a1a;}
+.title2 h2{ margin: 0; font-weight: normal; font-size: 60px; color: #1a1a1a;}
+
+
+.title3 {margin: 0 0 20px; padding: 0;font-size:46px;line-height:46px;font-weight:700;color: #292929;}
+.title3 h6{ margin: 0 0 10px; font-weight: bold; font-size: 20px; color: #1a1a1a;}
+.title3 h2{  margin: 0; font-weight: normal; font-size: 50px; color: #1a1a1a;}
+
+
+
+.btn-type1{background-color: #ec9d2a !important;padding: 14px 30px !important; color: #000; font-size: 20px; margin-top:5px; display: inline-block; font-weight: 500;}
+.btn-type1:hover{ color: #fff; background-color: #121432 !Important;}
+
+
+
+
+.read-more-btn{color: #fff; background: #009fde; font-size: 16px; font-weight: 500; text-transform: uppercase; padding: 16px 50px; display: block; width: fit-content;  margin: 30px auto 0;  letter-spacing: 2px;}
+.read-more-btn:hover{color: #fff; background-color: #024da1;}
+
+
+
+/*custom checkbox css*/
+.custom-checkbox .custom-control-label::before{border: none !important;outline: none !important;box-shadow: none !important;border-radius: 2px !important;}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {background-color:#fff;}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after{ background-image:url(../images/checkbox-arrow.png);width: 16px; height: 16px; background-size: 10px;}
+
+
+/*custom radio css*/
+.custom-radio .custom-control-label::before{outline: none !important;box-shadow: none !important; border: 2px solid #68686e !important; background-color: transparent;}
+.custom-radio .custom-control-input:checked ~ .custom-control-label::before {background-color:transparent;border: none !important;}
+.custom-radio .custom-control-input:checked ~ .custom-control-label::after{ background-image:url(../images/radio-checked.png);width: 16px; height: 16px; background-size: 16px; }
+
+
+
+
+/*---------------------header section-------------------------*/
+
+.header {padding: 0;margin: 20px 0 12px;background:transparent;left: 0;top: 0;width: 100%;z-index: 999; }
+
+
+
+.header.smaller { background-color:  #282828;}
+.logo {float: left; margin: 0px 0; padding: 0; max-width: 268px;}
+.header_right {margin: 0;padding: 0;float: right;}
+
+
+
+/*header top css*/
+.header-top-contact{ text-align: right; margin-bottom: 15px;}
+.header-top-contact ul{ font-size: 0;}
+.header-top-contact ul li{ display: inline-block; vertical-align: middle; margin-left: 6px;}
+.header-top-contact ul li.contct-phone a{font-size: 25px;font-weight: 600; color: #009fde; background-image: url(../images/call-icon-top.png); background-repeat: no-repeat; padding-left: 30px;
+  background-position: left 11px; }
+
+.header-top-contact ul .social{border-left: 1px solid #cfcfcf; padding-left: 15px; margin-left: 17px;}
+.header-top-contact ul .social a{ color: #fff; font-size: 18px;}
+.header-top-contact ul .social a:hover{color: #fcab35;}
+
+
+.header-payment-options{ margin-left: 20px;display: none;}
+.header-payment-options .btn{background-color: #fcab35 !important; border-radius: 0; color: #151515 !important; font-size: 14px;font-weight: 500; padding: 10px; box-shadow: none !important; outline: none;}
+.header-payment-options .dropdown-menu{ padding: 0;border-radius: 0; margin: 0;}
+.header-payment-options .dropdown-menu a{ font-size: 14px; padding: 5px 10px;}
+
+
+/*menu css*/
+.main-nav {margin:0;padding:0;position:relative; }
+.hide_logo, .menu-button, .search_hide {display:none;}
+
+.mainnav {float:none; padding:0; margin:8px 0 0;display: flex; align-items: center;}
+.mainnav ul {margin:0;padding:0; text-align: right;}
+.mainnav ul li {margin:0;padding:0 16px;    display: inline-block;position: relative;}
+.mainnav ul li:last-child a{ padding-right: 0px;}
+.mainnav ul li a {color: #2a2a2a; padding: 0px 0px 5px; font-size: 18px; line-height: 26px; font-weight: 500; display: block;}
+.mainnav ul li:last-child{ padding-right: 0;}
+.mainnav ul li.active a,.mainnav ul li a:hover { color: #009fde}
+
+.mainnav ul li.dropdown a{ padding-right: 20px;}
+.mainnav ul li.dropdown a .sub-menu--button{ margin-top: 5px;}
+
+
+.sub-menu {display:none; position:absolute; width:200px;background:#fff; z-index:99999; left: 0;top:30px;border: 1px solid #e9e9e9;}
+.mobile_primary  ul li ul.sub-menu li { float:none; padding:0 0; margin:0; border-bottom:1px solid #e9e9e9;display: block; }
+.mobile_primary  ul li:hover .sub-menu { display:block}
+.mobile_primary  ul li.menu-item-has-children .sub-menu li a { background:none; font-size:16px; padding:8px 15px; color:#1c1c1c; text-align: left;}
+.mobile_primary  ul li.menu-item-has-children .sub-menu li:last-child  { border:none}
+.mobile_primary ul li.menu-item-has-children a {background: transparent url("../images/drop.png") no-repeat scroll right 13px;}
+
+.mobile_primary  ul li.menu-item-has-children .sub-menu li a:hover, .mobile_primary  ul li.menu-item-has-children.active a {color:#000;background: none;border-radius: 0;}
+
+
+.sub-menu:before { display: inline-block; content: ''; width: 0; height: 0; border-bottom:10px solid #fff; border-bottom-color: #e9e9e9; border-right: 10px solid transparent;
+  border-left: 10px solid transparent; position: absolute; top: -10px; left: 40px;}
+.sub-menu:after { display: inline-block; content: ''; width: 0; height: 0; border-bottom:9px solid #fff; border-right: 9px solid transparent; border-left: 9px solid transparent; position: absolute; top: -8px; right: 41px;}
+
+
+
+/*---------------------Home Banner section-------------------------*/
+
+.banner {position: relative;height: 80vh;overflow: hidden;}
+.banner img {width:auto;height:100vh;}
+
+.home-top-banner-wrap .carousel-caption{bottom: auto; top: 0; max-width: 1200px; margin: 0 auto; text-align: center; height: 100%; display: flex !important; align-items: center; left: 0; right: 0px !important; width: 100%; justify-content: left; padding: 0;}
+.home-top-banner-wrap .carousel-caption-inner{max-width: 720px; text-align: left;}
+
+
+.home-top-banner-wrap .carousel-caption h5{font-size: 50px; font-weight: 700; color: #009fde; margin-top: 0; margin-bottom: 25px;}
+.home-top-banner-wrap .carousel-caption h2{font-size: 70px;     font-weight: 600; color: #fff; display: block; margin-bottom: 30px; }
+.home-top-banner-wrap .carousel-caption p{font-size: 20px;font-weight: normal; text-transform: none; color: #fff; line-height: 26px; margin-top: 10px;}
+.home-top-banner-wrap .carousel-caption .btn-type1{background-color: #024da1 !important; padding: 16px 50px !important; color: #fff; font-size: 25px; margin-top: 15px; display: inline-block;
+  font-weight: 600; border-radius: 64px; background-image: url(../images/button-arrow.png); background-repeat: no-repeat;   background-position: 87% center;
+  background-size: 32px; padding-right: 80px !important;}
+.home-top-banner-wrap .carousel-caption .btn-type1:hover{ background-color: #25ade3 !important;}
+
+.home-top-banner-wrap .carousel-control-prev{position: absolute; top: 0; height: 100%; display: flex; align-items: center;left: 0; background-image: url(../images/home-banner-left-arrow.png);  text-indent: -9999px;  width: 50px; background-repeat: no-repeat; background-position: center; opacity: 1; display: none;}
+.home-top-banner-wrap .carousel-control-next{position: absolute; top: 0; height: 100%; display: flex; align-items: center;right: 0; background-image: url(../images/home-banner-right-arrow.png);  text-indent: -9999px;  width: 50px; background-repeat: no-repeat; background-position: center; opacity: 1; display: none;}
+
+
+.home-top-banner-wrap .carousel-control-prev-icon,.home-top-banner-wrap .carousel-control-next-icon{ display: none;}
+
+/*-------------Brand section css--------------*/
+.brand-sec{ padding-top: 60px; padding-bottom: 60px;}
+.brand-sec h3{text-align: center; font-size: 30px; color: #000000; font-weight: 600; letter-spacing: 5px; text-transform: uppercase; margin-bottom: 40px;}
+.brand-sec ul{ display: flex; width: 100%; align-items: center; justify-content: center; column-gap: 60px;}
+
+
+
+
+/*-------------After Brand section css--------------*/
+.after-brand-txt{}
+.after-brand-txt p{font-size: 20px; line-height: 36px; font-weight: 300; color: #656565;}
+
+
+/*--------------About us section css---------------*/
+.about-us-section{}
+.about-us-section .title2{ text-align: left;  background-image: none; margin-bottom: 0; padding-bottom: 20px;}
+.about-us-section p{ font-size: 25px; font-style: italic; line-height: 39px; font-weight: normal;}
+.about-us-section h5{ display: block; margin-top: 25px; font-size: 25px; line-height:42px; font-weight: 600; color: #232323;}
+
+
+.about-img img{ width: 100%;}
+.about-us-section .btn-type1{ margin-top: 0px;}
+
+
+/*---Testimonials section css-----*/
+.testimonial-sec{background-image: url(../images/testimonial-sec-bg.jpg); background-repeat: no-repeat; background-position: bottom center; background-size: cover;}
+.testimonial-sec .title h2{ margin-bottom: 0; color: #fff;}
+
+.testimonial-sec .testimonials{position: relative; padding-top: 60px; text-align: center; padding-bottom: 35px; background: #fff; margin-top: 90px;}
+.testimonial-sec .testimonials-txt{border-radius:15px; padding:45px 60px 0px; position: relative; }
+.testimonial-sec .circle-icon{ height: 160px; width: 160px;  border-radius: 50%; border: 4px solid #fff; display: block; padding: 0px; margin: 0 auto; position: absolute;  z-index: 99; left: 50%; margin-left: -80px; top: -80px; box-shadow:0 0 15px rgb(0 0 0 / 25%);overflow: hidden; object-fit: cover;}
+.testimonial-sec .circle-icon img{ width: 100%; background-repeat: no-repeat;}
+
+.testimonial-sec .testimonials h3{ font-size: 35px; color: #000000; font-weight: 600;}
+.testimonial-sec .testimonials h5{ font-size: 24px; color: #8d8d8d; font-weight: 400; display: block; margin-bottom: 25px;}
+.testimonial-sec .testimonials p{color: #000000; font-size: 18px; font-weight: normal; line-height: 30px;}
+.testimonial-sec .testimonials h5{ color: #3b3b3b; font-size: 18px; font-weight: normal; line-height: 25px;}
+.testimonial-sec .testimonials h5 strong{ color: #161616;}
+.testimonial-sec .testimonials  .stars{margin: 35px 0 25px;}
+.testimonial-sec .testimonials  .stars img{ width: auto; margin: 0 auto;}
+
+
+.testimonial-sec .owl-dots{}
+
+.testimonial-sec .owl-dots { text-align: center; margin-top: 30px;}
+.testimonial-sec .owl-dots .owl-dot{ width: 16px; height: 16px; background-color: #cde7f4; border-radius: 50%; margin: 0 5px; display: inline-block;}
+.testimonial-sec .owl-dots .owl-dot.active{ background-color: #ffffff;}
+
+
+.testimonial-sec .owl-nav .owl-prev,.testimonial-sec .owl-nav .owl-next{position: absolute; top: 0; height: 100%; display: flex; align-items: center;}
+
+
+  .testimonial-sec .owl-nav .owl-prev{left: 0; background-image: url(../images/testi-left-arrow.png);  text-indent: -9999px;  width: 25px; background-repeat: no-repeat; background-position: center; display: none;}
+  .testimonial-sec .owl-nav .owl-next{right: 0; background-image: url(../images/testi-right-arrow.png);  text-indent: -9999px;  width: 25px; background-repeat: no-repeat; background-position: center;display: none;}
+
+
+
+
+/*--------------------Home Available Properties section css-----------------------*/
+.services-sec{}
+.services-sec .title h2{ text-transform: uppercase;}
+
+
+.services-box{ position: relative;overflow: hidden;}
+.services-box img{ width: 100%;}
+.services-box-text{ position: absolute; bottom: -100%; top: 0%; width: 100%;background-image: linear-gradient(rgba(0,00,00,.0), rgba(0,00,00,.5)); height: 100%;display: flex; padding: 60px 45px; align-items: center;  transition: All .4s; justify-content: center; }
+.services-box:hover .services-box-text{ bottom: 0; top: 0; padding-bottom: 35%; transition: All .4s; background-image: }
+.services-box-text h4{ text-align: center;}
+.services-box-text h4 a{color: #fff; font-weight: 500; font-size: 22px; text-transform: uppercase;}
+
+
+
+.services-boxes-col .services-box{ margin-bottom: 30px;}
+
+
+.view-all .services-box:hover .services-box-text{padding-bottom: 60px 45px; background-color: #000;}
+.view-all-services{ display: flex; align-items: center; justify-content: center; width: 100%;}
+.view-all .services-box-text{ background-image: none; }
+.view-all .services-box:hover .services-box-text a{ }
+
+
+/*--------------------Home Online application section css-----------------------*/
+.online-application-sec{ padding-top: 180px; padding-bottom: 180px;}
+.online-application-sec h6{ color: #fff; font-size: 20px; font-weight: 500; margin-bottom: 10px;}
+.online-application-sec h2{ color: #fff; font-size: 60px; font-weight: normal; margin: 0px 0 30px;}
+.online-application-sec ul{    margin-bottom: 30px;}
+.online-application-sec ul li{ font-weight: normal; font-size: 17px; color: #fff; margin-bottom: 12px;}
+
+
+/*--------------Home call section css---------------*/
+.Home-call-us-sec{  background-attachment: fixed; background-size: cover; background-repeat: no-repeat;}
+.Home-call-us-sec h2{font-size: 35px; font-weight: 700; color: #232323; margin-bottom: 20px;}
+.Home-call-us-sec h6{ font-size: 22px; font-weight: normal; color: #232323; margin-bottom: 15px;}
+
+.Home-call-us-sec h5{font-size: 20px; font-weight: 600; color: #fff;}
+.Home-call-us-sec h5 a{color: #fff; background: #009fde; font-size: 20px; font-weight: 400; padding: 20px 50px;display: block; width: fit-content; margin: 30px auto 0; letter-spacing: 2px;}
+.Home-call-us-sec h5 a:hover{color: #fff; background-color: #024da1;}
+
+
+
+/*----------------------Footer css here----------------------*/
+
+.footer{background-color: #101924; }
+.upper-footer{  padding-top: 20px; padding-bottom:20px; background-color: #162231;}
+
+.footer-details{ padding-top: 60px; padding-bottom: 25px;}
+
+
+.footer-links { margin-bottom: 0;}
+.footer-links li { list-style-type: none; display: block;margin-bottom: 8px; text-align: left;}
+.footer-links li a{color: #fff; font-size: 18px; font-weight: normal; line-height: 35px; }
+.footer-links li a:hover{ color: #fff;}
+
+
+
+.footer-left-col{ text-align: left;  }
+.footer-details h4{ font-size: 20px; font-weight: normal; text-transform: uppercase; color: #ffffff; margin-bottom: 25px; text-align: left;}
+
+.footer-left-col  ul li{ text-align: left; margin-bottom: 10px; padding-left: 0px; background-repeat: no-repeat; background-position: top left;}
+.footer-left-col  ul li a{font-size: 18px;font-weight: normal; line-height: 35px;}
+
+
+.footer-social{ margin-top: 20px; margin-bottom: 0; text-align: left; padding-left: 0; font-size: 0;}
+.footer-social li{ display: inline-block; color: #fff; text-transform: uppercase;    padding: 0 6px 0 0;}
+.footer-social li a{ color: #fff; padding: 0 7px;    font-size: 16px; border:none; padding: 0; width: 40px; height: 40px; display: block; border-radius: 0px; border-top-left-radius:0 ;  border-bottom-right-radius:0 ;     text-align: center;}
+.footer-social li a:hover{}
+
+.footer-logo img{ max-height: 55px;}
+
+
+
+.bottom-footer{ padding-top:25px; padding-bottom: 25px; }
+.bottom-footer p{color: #fff; font-size: 18px; font-weight: normal; line-height: 18px; margin: 0; padding: 0;}
+
+
+
+
+/*------------------------------------------inner pages banner css------------------------------------------*/
+
+.inner-page-banner { padding:0}
+.inner-page-banner .container-custom1{ height: 100%;}
+.inner-page-banner .row{ height: 100%;}
+.inner-page-banner{ height: 600px; background-size: cover;    display: flex;}
+.inner-page-banner-txt{ text-align: center; }
+.inner-page-banner-txt h3{color: #fff; font-size: 70px; font-weight: 600; text-transform: uppercase; text-align: left;}
+.inner-page-banner-txt h5{color: #ffffff; font-size: 26px; font-weight: 600; margin-top: 15px;}
+.inner-page-banner .text-center h3{ text-align: center;}
+
+.inner-page-banner-txt .breacrumb li{ display: inline-block; color: #fff; }
+.inner-page-banner-txt .breacrumb li a{ color: #fff; background-image: url(../images/breadcrumb-arrow.png); background-repeat: no-repeat; background-position: center right;padding: 0 12px;}
+.inner-page-banner-txt .breacrumb li a:hover{ color: #fcab35;}
+
+
+
+
+
+/*---------------------common structure css---------------------------------*/
+
+.image-text-wrap-sec { }
+.image-text-wrap-sec  img{ width: 50%; }
+.r-img img{ float: right; margin: 0 0 50px 30px;}
+
+
+
+
+
+
+/*--------------Zigzag section css---------------*/
+.zig-zag-full-sec{background-color: #f0f0f0;}
+
+.zigzag-full-sec-inner{ display: flex; justify-content: right; min-height: 600px; align-items: center;}
+.zigzag-full-sec-wrap{ max-width: 585px; padding: 0 30px ;}
+
+.zigzag-sec2 .zigzag-full-sec-inner{ justify-content: left;}
+
+.zig-zag-full-sec-img{background-repeat: no-repeat; background-size: cover;}
+
+.zig-zag-full-sec-txt{}
+.zig-zag-full-sec-txt h3{ font-family: 'Georgia'; text-transform: uppercase; font-size: 40px; color: #fff; font-weight: normal; margin-bottom: 40px;}
+
+.zig-zag-full-sec-txt ul,.zig-zag-full-sec-txt ol{ padding-left: 20px; margin-bottom: 30px;}
+.zig-zag-full-sec-txt li{ color:#fff; margin-bottom: 25px; font-size: 20px; font-weight: 400;}
+
+.zig-zag-full-sec-txt h6{ color:#fff;  font-size: 20px; font-weight: 300; line-height: 32px;}
+.zig-zag-full-sec-txt h6 a{color: #ec9d2a !important;    white-space: pre;}
+
+
+
+
+/*-------------------------------------------About us page css here-------------------------------------------*/
+.about-pg-sec2 p{color: #656565; font-weight: 300; display: block; margin-bottom: 20px;}
+.about-pg-sec2 p strong{font-weight: bold;}
+
+.about-zigzag1 h5{ font-size: 26px; color: #232323; line-height: 44px; font-weight: normal;}
+.about-zigzag1 h5 u{ text-decoration: underline; font-weight: bold;}
+
+.about-zigzag2 .title{ text-align: left;}
+.about-zigzag2 p{ color: #656565;}
+
+.about-txt-left{}
+.about-txt-wrap{ display: flex; margin: 30px 0;}
+.about-txt-wrap img{ margin-right: 30px; max-width: 45%;}
+.about-img-right img{ margin-bottom: 15px;}
+
+
+
+/*-------------------------------------------Life is a garden page css here-------------------------------------------*/
+.life-is-garder-sec1{ padding-bottom: 120px;}
+
+.life-is-garder-sec2{padding-top: 120px; padding-bottom: 120px; background-position: right top;background-size: contain; background-repeat: no-repeat; background-color: #f4f7fa;}
+.life-is-garder-sec2 .title{ text-align: left; margin-bottom: 30px;}
+.life-is-garder-sec1 p,.life-is-garder-sec2 p{color: #656565; font-size: 18px; font-weight: 300;}
+
+
+
+
+/*single testimonial*/
+.single-testimonial-sec .quote-icon{ display: block; text-align: center; margin: 0 0 20px;}
+.single-testimonial-sec h3{ font-size: 30px; color: #232323; font-weight: 300; text-align: center;}
+
+.client-pic{ display: block; text-align: center; margin: 40px 0 20px;}
+.single-testimonial-sec h4{text-align: center; color: #232323; font-size: 23px; font-weight: 600; display: block; margin-bottom: 10px;}
+.single-testimonial-sec h5{text-align: center; color: #232323; font-size: 22px; font-weight: 400;}
+
+
+/*-------------------------------------------Bonding the family seminar css here-------------------------------------------*/
+.bonding-thefamily-sec1{ padding-bottom: 120px;}
+.bonding-thefamily-sec1 p{font-size: 18px;}
+
+.bonding-thefamily-sec2{background-color: #fff; margin-bottom: 120px;}
+.bonding-thefamily-sec2 li{color: #232323;}
+
+.bonding-thefamily-sec2 .zigzag-full-sec-wrap {max-width: 720px;}
+.bonding-thefamily-sec2 .title { margin-bottom: 30px;}
+.bonding-thefamily-sec2 .title h2{ text-align: left;}
+.bonding-thefamily-sec2 ul{ padding-left: 0;}
+.bonding-thefamily-sec2 ul li{ padding-left: 30px; background-image: url(../images/bullet-type1.png); background-repeat: no-repeat;background-position: 0px 4px; color: #232323; font-size: 18px; margin-bottom: 20px; line-height: 24px;}
+
+
+/*-------------------------------------------parenting program page css here-------------------------------------------*/
+
+.parenting-prog-sec1 p{ font-size: 18px; line-height: 30px; color: #656565;}
+
+.parenting-prog-sec2{ margin-bottom: 0 !important;}
+.parenting-prog-sec2 .zig-zag-full-sec-txt{padding-top: 60px; padding-bottom: 60px;}
+.parenting-prog-sec2 .zig-zag-full-sec-txt .title h2{ text-transform: none;}
+
+
+
+
+/*inner testimonial slider css*/
+.innerpage-testimonial-sec .title{ margin-bottom: 30px;}
+.innerpage-testimonial-sec .testimonials-txt{ text-align: center;}
+.innerpage-testimonial-sec .testimonials-txt p{font-size: 30px; font-weight: normal; color: #232323;}
+.innerpage-testimonial-sec .testimonials-txt h5{font-size: 22px; font-weight: bold; color: #232323; display: block; margin-top: 45px;}
+
+.innerpage-testimonial-sec .owl-nav{ display: none;}
+.innerpage-testimonial-sec .owl-dots{text-align: center; margin-top: 30px;}
+.innerpage-testimonial-sec .owl-dots .owl-dot{width: 12px; height: 12px; background-color: #e9e9e9; border-radius: 50%; margin: 0 5px; display: inline-block;}
+.innerpage-testimonial-sec .owl-dots .owl-dot.active{background-color: #009fde;}
+
+
+/*-------------------------------------------Testimonial page css here-------------------------------------------*/
+.testimonial-box{background-color: #fcfcfc; border-radius: 15px; padding: 35px; margin-bottom: 50px; margin-top: 20px;}
+.testimonial-box:last-child{ margin-bottom: 0;}
+.test-quote-icon{ margin-top: -60px; margin-bottom: 15px;}
+.testimonial-box .testi-desc p{font-size: 23px; font-weight: 300; color: #232323; font-style: italic; line-height: 34px;}
+
+.testi-btm{ display: flex; margin-top: 20px; column-gap: 30px; align-items: center;}
+.client-img{ border-radius: 50%; overflow: hidden;}
+.client-detaisl h4{ font-size: 20px; font-weight: bold; color: #232323; margin-bottom: 15px;}
+.client-detaisl h5{ font-size: 18px; font-weight: 300; font-style: italic; color: #232323;}
+
+
+
+/*-------------------------------------------Contact page css here-------------------------------------------*/
+
+.apply-online-top-sec ol{ padding: 0 0 0 15px; margin-top: 35px;}
+
+
+.breadcrumb{ background-color: transparent; padding: 0; margin-bottom: 30px;}
+.breadcrumb li{ color: #656565; font-size: 18px; font-weight: normal;}
+.breadcrumb li a{color: #009fde;}
+
+
+/*form common css*/
+.contact-form-sec{ border-top: 1px solid #e1e1e1;}
+.contact-us-form-wrap{ }
+.contact-us-form-wrap h2{ color: #151515; font-weight: 700; font-size: 70px; display: block; margin-bottom: 15px;}
+.contact-us-form-wrap h5{color: #151515; font-weight: normal; font-size: 22px; text-transform: uppercase; display: block; margin-bottom: 40px;}
+
+
+.apply-form-wrap{background-color: #121432; padding: 80px;}
+
+.contact-us-form-wrap label{ color: #151515; font-size: 18px; font-weight: normal; display: block ; margin-top: 15px; margin-bottom: 5px;}
+.contact-us-form-wrap input{ height: 55px; border: 1px solid #e1e1e1 !important; box-shadow: none; outline: none; border-radius: 0; margin-bottom: 15px;}
+
+.contact-us-form-wrap .form-btn-wrap{  margin-top: 20px; display: block; width: 100%;}
+.contact-us-form-wrap .btn{ border: none; background-color: #024da1; color: #fff; border-radius: 50px; font-size: 24px; font-weight: 600; text-transform: none; padding: 12px 25px; min-width: 200px; display: block; width: 300px; margin: 0 auto;    height: 64px;}
+.contact-us-form-wrap br{ display: none;}
+.contact-us-form-wrap .wpcf7-response-output{text-align: center; border: 2px solid #f00 !important; width: fit-content !important;
+  margin: 0 auto !important; padding: 12px 35px !important;}
+.contact-us-form-wrap  .sent .wpcf7-response-output{ border-color: #008103 !important;}
+.contact-us-form-wrap .wpcf7-not-valid-tip{ margin-top: -15px;}
+
+
+/*-------------------------------------------Podcast page css here-------------------------------------------*/
+.podcats-cont-sec .title{ text-align: left;}
+.podcasts-wrap{ margin-top: 40px;}
+.podcasts-wrap .services-box-text{ padding: 40px 30px;align-items: end;}
+.podcasts-wrap .services-box-text .projects-box-text-inner{ width: 100%;}
+.podcasts-wrap .services-box-text h4{ text-align: left; }
+.podcasts-wrap .services-box-text h4 a{text-transform: none;    font-weight: 600;}
+.podcasts-wrap .services-box-text h6{font-style: 16px; color: #fff; font-weight: normal; display: block; margin-bottom: 10px;}
+
+.podcasts-wrap .services-box:hover .services-box-text{ padding-bottom: 50px;}
+
+
+
+/*-------------------------------------------Blog list page css here-------------------------------------------*/
+.blog-list-sec{ padding-top: 0;}
+
+.blog-list-inner{ display: block;column-count: 3; column-gap: 30px;}
+
+.blog-box{max-width: 100%; margin-bottom: 30px; display: inline-block;}
+.blog-filter { margin-bottom: 30px;}
+.blog-filter select{ max-width: 360px;border: 1px solid #ebebeb; border-radius: 0; height: 55px !important; margin: 0 0 0 auto; color: #acacac; font-size: 16px; font-weight: normal; background-image: url(../images/select-drop.png); background-repeat: no-repeat; background-position: 95% center;-webkit-appearance: none; -moz-appearance: none;  appearance: none;}
+
+
+.blog-img {width: 100%; }
+.blog-box:first-child .blog-img{ margin-top: 0;}
+.blog-details{padding: 15px;background-color: #f9f9f9;}
+.blog-details .category{ font-size: 18px; color: #4f4f4f; font-weight: normal;}
+.blog-details h4{ color: #121212; font-size: 20px; font-weight: 600; display: block; margin: 8px 0 ;}
+.blog-details .read-more{ font-size: 18px; color: #009fde;}
+
+
+/*----------------------------Corporate workshop page css here-----------------------------*/
+.corporate-workshop-sec1 .title{ margin-bottom: 30px;}
+.corporate-workshop-sec1 .title h2,.corporate-workshop-sec2 .title h2{ text-align: left; text-transform: none;}
+
+.corporate-workshop-sec2{ margin-bottom: 0 !important;}
+
+.corporate-workshop-sec3 p{ font-size: 18px; font-weight: 300;line-height: 30px; color: #232323; display: block;}
+
+.corporate-workshop-testimonial h4{ font-size: 23px; font-weight: normal; color: #232323; line-height: 40px; display: block; margin-bottom: 15px;}
+.corporate-workshop-testimonial h4 strong{ display: block;}
+
+.corporate-workshop-testimonial p{ font-size:18px !important; font-weight: normal !important; color: #232323 !important; font-style: italic; line-height: 30px;}
+
+.corporate-workshop-testimonial .circle-icon{ width: 120px; height: 120px; border-radius: 50%; display: block; margin: 30px auto 0;}
+.corporate-workshop-testimonial .circle-icon img{ max-width: 100%; width: auto;}
+.corporate-workshop-testimonial h5{ margin-top: 15px !important; font-style: 23px !important; font-style: italic; font-weight: bold;}
+.corporate-workshop-testimonial h6{ margin-top: 15px !important; font-style: 23px !important; font-style: italic; font-weight: 300;}
+
+
+/*----------------------------Sales seminar page css here-----------------------------*/
+.sales-seminar-testimonial{ margin-top: 100px;}
+
+
+/*----------------------------TUTTL page css here-----------------------------*/
+.tuttl-testi-box{background-color: #fafafa; border: 1px solid #ededed; border-radius: 10px; margin-bottom: 30px; padding: 20px;}
+.tuttl-testi-box p{ font-size: 18px; font-weight: 300; color: #232323; font-style: italic; line-height: 34px; margin: 0;}
+.tuttl-testi-box h5{ font-size: 18px; font-weight: 700; color: #232323; font-style: italic; line-height: 34px;  margin: 0;}
+
+
+
+/*----------------------------College bound program page css here-----------------------------*/
+.colege-bound-btm-sec{background-image: url(../images/colege-bound-btm-sec-bg.jpg); background-size: cover; background-repeat: no-repeat; padding-top: 300px; padding-bottom: 300px;}
+.colege-bound-btm-sec h4{ color: #fff; font-size: 28px; font-weight: 300; line-height: 40px;}
+
+
+/*----------------------------meeting planner page css here-----------------------------*/
+.reasons-sec-box-wrap{ margin-bottom: 30px;}
+.reasons-sec-box{background-color: #fff; height: 100%;padding:40px 25px ; min-height: 500px;}
+
+.reasons-img{ height: 71px; width: 69px; margin: 0 auto 20px; display: flex; align-items: center; justify-content: center;}
+.reasons-sec-box h3{font-size: 26px; font-weight: bold; color: #000000; margin-bottom: 15px;}
+.reasons-sec-box p{ font-size: 18px;}
+
+.meeting-planers-img1 .read-more-btn{ margin:50px 0 0;}
+
+
+
+/*brand carousel css*/
+.brandlogo-slider-sec{}
+.brandlogo-slider-sec .owl-carousel{ position: relative;}
+.brandlogo-slider-sec .owl-carousel .owl-item{ text-align: center;}
+.brandlogo-slider-sec .owl-carousel .owl-item img{ max-height: 110px; width: auto; margin:0 auto;}
+.brandlogo-slider-sec .owl-nav{ position: absolute; top: 50%; margin-top: -26px; display: flex; justify-content: space-between; width: 100%;}
+.brandlogo-slider-sec .owl-prev{text-indent: -9999px; background-image: url(../images/brand-carousel-left.png); background-repeat: no-repeat; width: 22px; height: 52px; margin-left: -20px;}
+.brandlogo-slider-sec .owl-next{text-indent: -9999px; background-image: url(../images/brand-carousel-right.png); background-repeat: no-repeat; width: 22px; height: 52px; margin-right: -20px;}
+
+
+.brandlogo-slider-sec .owl-dots{display: none;}
+
+
+
+/*------------------------------------------keynote speaking page css------------------------------------------*/
+
+.keynote-speaking-sec3-col ul li{padding-left: 30px; background-image: url(../images/bullte2.png); background-repeat: no-repeat; background-position: 0px 6px; color: #232323; font-size: 18px;
+  margin-bottom: 30px; line-height: 24px;}
+.keynote-speaking-testi{}
+
+.keynote-speaking-testi{ background-image: none; background-color: #009fde;}
+.keynote-speaking-testi .testimonials{margin-top: 0; padding: 0;}
+.keynote-speaking-testi .testimonials-txt {padding: 25px; position: relative; text-align: left;}
+.keynote-speaking-testi .testimonials-txt .txt{ min-height: 300px;}
+.keynote-speaking-testi .testimonials-txt p{ font-style: italic; color: #494949; font-weight: 300;}
+.keynote-speaking-testi .testimonials-txt h3{font-weight: bold; font-size: 18px; margin: 10px 0;}
+.keynote-speaking-testi .testimonials-txt h5{font-weight: normal; font-size: 15px; margin: 0; line-height: 21px; min-height: 44px;}
+
+
+.keynote-speaking-testi .circle-icon{ position: inherit; margin-left: 0; top: 0; left: 0; box-shadow: none; border: 0;height: 72px; width: 72px;}
+
+
+.keynote-speaking-testi .owl-nav{ position: absolute; top: 50%; margin-top: -40px; display: flex !important; justify-content: space-between; width: 100%;}
+.keynote-speaking-testi .owl-nav .owl-prev {text-indent: -9999px;background-image: url(../images/white-arrow-left.png);
+   background-repeat: no-repeat; background-size: contain; width: 32px; height: 80px;        left: -45px; display: block;}
+
+.keynote-speaking-testi .owl-nav .owl-next {text-indent: -9999px; background-image: url(../images/white-arrow-right.png);
+   background-size: contain; background-repeat: no-repeat; width: 32px;height: 80px; right: -45px; display: block;}
+
+
+/*------------------------------------------Business Coaching page css------------------------------------------*/
+
+
+/*circle progress bar starts here*/
+.circle-progress-bar-wrap .wrapper{ display: flex;}
+.wrapper .card{background: #fff; width: calc(25% - 8px);height: 300px;border-radius: 5px;display: flex;align-items: center;
+justify-content: flex-start;flex-direction: column;border: none;}
+.wrapper .card .circle{position: relative;height: 150px;width: 150px;border-radius: 50%;cursor: default;}
+.card .circle .box,
+.card .circle .box span{position: absolute;top: 50%;left: 50%;}
+.card .circle .box{height: 100%;width: 100%;background: #fff;border-radius: 50%;transform: translate(-50%, -50%) scale(0.8);transition: all 0.2s;}
+.card .circle:hover .box{transform: translate(-50%, -50%) scale(0.91);}
+.card .circle .box span,
+.wrapper .card .text{color: #232323; text-align: center;line-height: 24px;  font-size: 20px;}
+.card .circle .box span{ font-size: 36px;}
+.circle .box span{font-size: 38px;font-family: sans-serif;font-weight: 600;transform: translate(-45%, -45%);transition: all 0.1s;}
+.card .circle:hover .box span{transform: translate(-45%, -45%) scale(1.09);}
+.card .text{font-size: 20px;font-weight: 600;}
+@media(max-width: 753px){
+.wrapper{max-width: 700px;}
+.wrapper .card{ width: calc(50% - 20px); margin-bottom: 20px;}
+}
+@media(max-width: 505px){
+.wrapper{max-width: 500px;}
+.wrapper .card{width: 100%;}
+}
+/*circle progress bar ends here*/
+
+
+.banner-btm-sec{background-color: #f2f2f2; padding-top: 50px; padding-bottom: 50px;}
+.banner-btm-sec .col-md-12{display: flex; align-items: center; justify-content: center;  column-gap: 50px;}
+.banner-btm-sec h5{ font-size: 25px; color: #656565;}
+.geta-couch{color: #fff; background: #009fde; font-size: 16px; font-weight: 500; text-transform: uppercase; padding: 16px 50px;
+  display: block; width: fit-content; letter-spacing: 2px;}
+.geta-couch:hover{color: #fff; background-color: #024da1;}
+
+.business-coaching-sec1{ padding-top: 100px; padding-bottom: 100px;}
+.business-coaching-sec1-top{ padding-bottom: 100px;}
+.business-coaching-sec1-top .title h2{ text-align: center;}
+
+.business-coaching-sec1-btm h4{ font-weight: bold; text-align: left;}
+
+
+.business-coaching-sec2 .reasons-sec-box h3 {font-size: 18px;}
+.business-coaching-sec2 .reasons-sec-box p{ font-size: 16px;}
+
+
+.business-coaching-sec3{ padding-top: 120px; padding-bottom: 120px;}
+.business-coaching-sec3 .title{ margin-bottom: 20px;}
+.business-coaching-sec3 .title h2{color: #fff; text-align: center;}
+.business-coaching-sec3  p{color: #fff; text-align: center;}
+.business-coaching-sec3  .geta-couch{ margin: 70px auto 0;}
+
+
+.business-coaching-sec4{background-color: #fff !important;}
+
+
+.business-coaching-sec5{background-color: #fafafa;}
+.business-coaching-sec5 .card{border: none; background-color: transparent; }
+.business-coaching-sec5  .card-header{ background-color: transparent; border: none; border-radius: 0; border-bottom: 1px solid #e1e1e1; padding: 15px 0; background-image: url(../images/accordion-plus-icon.png); background-repeat: no-repeat; background-position: center right;}
+.business-coaching-sec5  .card-header h5 .btn-link{ font-size: 22px; color: #2a2a2a; font-weight: 600;    padding: 0;white-space: normal;  width: 100%;  text-align: left;}
+.business-coaching-sec5  .card-header h5 .btn-link:hover{ text-decoration: none; color: #2196f3;}
+
+.business-coaching-sec5  .card-body{ padding: 15px 0; background-color: transparent;}
+
+
+
+.business-coaching-sec7{ padding-top: 120px; padding-bottom: 120px;}
+.business-coaching-sec7 .title{ margin-bottom: 20px;}
+.business-coaching-sec7 .title h2{color: #fff; text-align: center;}
+.business-coaching-sec7  p{color: #fff; text-align: center;}
+.business-coaching-sec7 .geta-couch{ margin: 70px auto 0; background-color: #fff; color: #2095f3;}
+
+/* ---Blog Details--- */
+
+.blog_details_sec1{ background: #fbfbfb;}
+
+.blog_sign_row{display: flex; align-items: center; justify-content: center;}
+.blog_sign_row h5{font-size: 28px; color: #232323; font-weight: 500;}
+.blog_sign_row .read-more-btn{margin: 0 0 0 50px; font-size: 22px; padding: 20px 50px; white-space: nowrap;}
+.blog_bread ul{display: flex;flex-wrap: wrap;}
+.blog_bread ul li{font-size: 20px; color: #000; font-weight: 300;}
+.blog_bread ul li a{padding: 0 5px; font-size: 20px; color: #009fde; font-weight: 300; white-space: nowrap;}
+
+
+.blog_details_sec3 .title{text-align: left; margin: 0 0 20px;} 
+.blog_details_sec3 h6.bposter{margin: 0 0 40px; color: #adadad; font-size: 18px;}
+.blog_details_sec3 h6.bposter span{color: #000;}
+.blog_details_sec3 .single-post-content-wrapper p { font-size: 16px;line-height: 32px; font-weight: 300; color: #292929;}
+.blog_details_sec3 p{margin-bottom: 25px; font-weight: 300;}
+.bold{font-weight: bold;}
+.blog_author{display:flex; border-top: 1px solid #e1e1e1; padding: 30px 0; margin: 50px 0 0 0;}
+.blog_author .bloger{margin-right: 20px;}
+.blog_img{margin: 50px 0 50px;}
+.rp_col{background: #f9f9f9;}
+.rp_col .rp_img img{width: 100%;}
+.rp_col .rp_desc{padding: 20px;}
+.rp_col .rp_desc h6{color: #4f4f4f; padding: 0 0 20px;} 
+.rp_col .rp_desc h4{ font-size: 20px; text-transform: uppercase; color: #121212; padding: 0 0 20px;} 
+.rp_col .rp_desc a{ font-size: 18px; color: #009fde;} 
+.rp_col .rp_desc a:hover{ text-decoration: underline;} 
+
+
+
+/* 09.02.22 -server */
+
+.about-txt-wrap.about_rt{float: right; display: inline;}
+.about-txt-wrap.about_rt img{margin-left: 30px; margin-bottom: 25px; width: 100%; max-width: 100%;}
+.faml h2{margin-bottom: 20px; border-bottom: 1px solid #e9e6e6; padding-bottom: 20px;}
+
+/* .keynote-speaking-testi.corporate_tesi .testimonials {  height: 750px;} */
+/* .sales_sem_testi{width: 60%; margin: 0 auto;} */
+
+/* 09.02.22 -server */
+.blog-filter form{display: flex;}
+.blog-filter form .btn-primary { color: #fff; background-color: #024da1;  border-color: #024da1;}
+
+/*--------------------------- Life Coaching  -----------------------------*/
+
+
+.cesule_btn a.btn{color: #fff; background: #009fde; font-size: 16px; font-weight: 500; border-radius: 0; text-transform: uppercase;
+padding: 15px 35px; margin-top: 50px;}
+.cesule_btn a.btn:hover{background: #0daeee;}
+
+.life_coaching_sec1 p, .life_coaching_sec2 p, .life_coaching_sec3 p{font-size:18px; line-height: 36px; font-weight: 300;}
+.life_coachinf_img1{float: right; width: 50%; margin: 0 0 50px 50px;}
+.life_coachinf_img1 img{width: 100%;}
+
+.life_coaching_sec3{background:#f9f9f9;}
+.life_coaching_sec3_top{padding-bottom: 60px;}
+
+.lc_box_left{position: relative; width: 84%;}
+.lc_left{border-right: 8px solid #e4e4e4; position: relative; padding-bottom: 60px;}
+
+.lc_box_right{border-left: 8px solid #e4e4e4; padding-left: 16%; }
+.lc_n{width: 118px; height: 118px; background: #fff; border: 15px solid #009fde; border-radius: 100%; display: flex; align-items: center; justify-content: center; color:#009fde; font-weight: bold; font-size: 40px; position: absolute; top: 0;}
+
+.lc_left .lc_n{right: -65px;}
+
+.coach_listing p{padding: 0; margin: 0;}
+.lc_right{margin-left: -8px;}
+.lc_right p{ padding-bottom: 60px;}
+.lc_right .lc_n{left: -65px;}
+.lg_box_wrap{background: #fff; padding: 15px;}
+.life_coaching_sec3 h3{font-weight: bold; font-size: 22px; padding: 0 0 20px; text-transform: uppercase;}
+
+.life_coaching_sec4{background: #009fde;}
+.life_coaching_sec4 h2, .life_coaching_sec4 p{color: #fff;}
+.life_coaching_sec4 p{width: 80%; margin: 0 auto; font-weight: 300; font-size: 18px; line-height: 35px;}
+.life_coaching_sec4 .title { margin: 0 0 30px;}
+.life_coaching_sec4 .cesule_btn a.btn{background: #fff; color: #2095f3; letter-spacing: 3px;}
+.life_coaching_sec4 .cesule_btn a.btn:hover{background: rgb(214, 214, 214);}
+
+.lic_img2{margin-bottom: 50px;}
+.uc{text-transform: uppercase !important;}
+.gr-img{margin-bottom: 0px;}
+.life_coaching_sec5 .reasons-sec-box{padding: 0;}
+.gr_desc{padding:30px 15px 15px 15px;}
+.life_coaching_sec5 p{ font-size: 16px; line-height: 26px; font-weight: 300;}
+.gr-img img{width: 100%;}
+.blog-list-sec.lic_blog{padding: 60px 0;}
+/* .lic_faq .card-header{background: #009fde;} */
+.lic_blog img{width: 100%;}
+
+.lic_faq {background: #f9f9f9;}
+.lic_faq .card{border: none; background: transparent;}
+.lic_faq .card-header .fa{color: #000; padding: 0; border: none;}
+.lic_faq .card-header .btn-link{color: #fff; font-size: 25px; font-weight: normal; width: 100%; display: flex; justify-content: space-between; align-items: center;}
+.lic_faq .card-header .btn-link:hover{text-decoration: none;}
+.lic_faq .card-header h2  .btn-link{color: #000;}
+
+.lic_faq .card-header h2 .btn.btn-link{background: #009fde; border-radius: 0; color: #fff; padding: 10px;}
+.lic_faq .card-header h2 .btn.btn-link .fa{ color: #fff; font-size: 15px;}
+.lic_faq .card-header h2 .btn.btn-link.collapsed{background: #fff; color: #000;}
+.lic_faq .card-header h2 .btn.btn-link.collapsed  .fa{color: #000;}
+.lic_faq .card-header{padding: 0; border: none; border-radius: 0; margin-bottom: 10px;}
+.lic_faq .card-header h2 .btn.btn-link{background: #009fde; border-radius: 0;}
+
+
+/* server work 10.02.22 7.30pm */
+
+.testimonial-sec.corporate_tesi{}
+.testimonial-sec.corporate_tesi .testimonials { position: relative; padding-top: 80px; text-align: center; padding-bottom: 35px;
+background: #fff; margin-top: 90px;}
+.testimonial-sec.corporate_tesi .circle-icon { height: 160px; width: 160px; border-radius: 50%; border: 4px solid #fff; display: block;
+  padding: 0px; margin: 0 auto;  position: absolute; z-index: 99; left: 50%; margin-left: -80px; top: -80px;
+  box-shadow: 0 0 15px rgb(0 0 0 / 25%); overflow: hidden;object-fit: cover;}
+.testimonial-sec.corporate_tesi .circle-icon img { width: 100%; background-repeat: no-repeat;}
+.testimonial-sec.corporate_tesi .testimonials-txt{text-align: center;}
+.testimonial-sec.corporate_tesi.sales_testim{background: #fff;}
+.testimonial-sec.corporate_tesi.sales_testim .title h2 { color: #232323; margin-bottom: 60px;}
+.testimonial-sec.corporate_tesi.sales_testim p{font-size: 20px; font-weight: 300; font-style: italic;}
+.keynote-speaking-testi .testimonials-txt h5 { font-weight: normal; font-size: 22px;}
+
+.keynote-speaking-testi.sales_testim .owl-nav .owl-next{background-image: url(../images/white-arrow-right1.png);}
+.keynote-speaking-testi.sales_testim .owl-nav .owl-prev{background-image: url(../images/white-arrow-left1.png);}
+
+
+
+/* --23.02.22--*/
+/* --New Course-- */
+
+/* --new business coaching-- */
+
+.exe_busi h4{padding-bottom: 40px;}
+.exe_busi ul li { padding-left: 30px; background-image: url(../images/bullet-type1.png); background-repeat: no-repeat; background-position: 0px 4px; color: #232323; font-size: 18px; margin-bottom: 20px; line-height: 24px;}
+
+.exe_busi_video{padding:100px 0; text-align: center;}
+.exe_busi_video h4{padding: 0 0 30px; text-align: center;}
+.exe_busi_video h4 a{color: red;}
+.exe_busi_video h4 a:hover{text-decoration: underline ;}
+
+.features.section{padding-bottom: 160px; position: relative;}
+.feature { position: relative; padding: 16px; width: 45%; flex-grow: 1; margin: 20px}
+.features-inner .title{margin: 0;}
+.features::before { content: ''; width: 100%; height: 400px; position: absolute; left: 0; bottom: 0; background: #EEF1FA;
+  background: linear-gradient(to bottom, #EEF1FA, rgba(238,241,250,0));}
+.container .container-sm { max-width: 800px; padding-left: 0; padding-right: 0;}
+.features-wrap { display: flex; flex-wrap: wrap; justify-content: center; margin-right: -16px; margin-left: -16px;}
+.container .container-sm { max-width: 800px; padding-left: 0; padding-right: 0;}
+.features-wrap { width: 80%;margin: 0 auto;}
+.feature-inner { position: relative; height: 100%; background: #fff; padding: 48px 24px 0px;}
+.feature-inner::before { content: ''; position: absolute; top: 0; right: 0; bottom: 0; left: 0;  mix-blend-mode: multiply;
+  box-shadow: 0 24px 48px rgb(17 16 62 / 12%);}
+.feature:nth-child(even) { top: 80px;}
+h4.feature-title{padding: 20px 0;}
+
+/* --pr media */
+
+.who_ar p{font-size: 24px; line-height: 40px;}
+.pr_box .reasons-sec-box{min-height: auto;}
+
+ /* 28.02.22 */
+ .getfe ul{display: flex; align-items: center; justify-content: center;}
+ .getfe ul li{ margin: 0 7px;}
+ .getfe ul li img{width: 100%;}
+
+
+ .our_process{background: #f8f8f8;}
+ .prcs_col{background: #fff; width: 200px; height: 200px; border-radius: 100%; box-shadow: 0px 5px 5px #00000014; display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 0 auto;}
+ .prcs_col h3{ font-size: 60px; font-weight: bold;}
+ .prcs_col p{ font-size: 30px; font-weight: bold;}
+.prcs_col:hover{ background: #009fde;color: #fff;}
+.prcs_col:hover p{ color: #fff;}
+
+/* --10.03.22-- */
+/* .nc_sec2 .zig-zag-full-sec-img{order: 2;}
+.nc_sec2 .zig-zag-full-sec-txt{order: 1;} */
+.digi_marketing_row.zig-zag-full-sec{margin:75px 0; background: transparent;}
+.digi_marketing_row.zig-zag-full-sec .title{text-align: left;}
+.digi_text .title{text-align: left;}
+.bonding-thefamily-sec2 h2 br{display: none;}
+.digi_sec1{padding-bottom: 0;}
+
+/* --14.03.22-- */
+.blog_bread ul { display: inline-block;}
+.blog_bread ul li { display: inline;}
+.blog_details_sec3 h6.bposter span {  display: inline-flex;}
+
+/* --15.03.22-- */
+.prcs_col_box{border: 1px solid #e9e9e9; padding: 15px 15px 30px; border-radius: 10px; position: relative; height: 100%;}
+.prcs_col_box:hover{border-color: #009fde; transition: 0.3s;}
+.prcs_col_box:hover .prcs_col{background: #009fde; transition: 0.6s;}
+.prcs_col_box:hover .prcs_col p, .prcs_col_box:hover .prcs_col h3{ color: #fff;}
+.prcs_col{margin-top: -90px;}
+.prcs_col_box h4{text-align: center; margin-top: 30px; font-weight: 300; font-size: 22px;}
+.our_process .title { margin: 0 0 120px;}
+
+.dyk_sec{padding:75px 0;}
+.dyk_sec .title p{font-size: 25px;}
+.dyk-box h3 { font-size: 60px;font-weight: bold; padding: 0 0 15px;}
+.dyk-box p { font-size: 25px; font-weight: 500;}
+.dyk_sec .wrapper .card .text { line-height: 24px; font-size: 20px; margin-top: 15px;}
+.dyk_sec .card .circle .box span { font-size: 50px;}
+.dyk_sec .circle-progress-bar-wrap{margin-top: 30px;}
+.dyk_sec .wrapper .card{height: auto;}
+
+
+.ac{text-align: center;}
+.loader_sec .count{font-size: 60px; font-weight: 700; color: #009fde;}
+.loader_sec span{font-size: 60px; font-weight: 700; color: #009fde; }
+.loader_sec .text{font-size: 22px; color: #333;}
+
+
+
+/*---22.03.22---*/
+ul.lcn_list{padding-bottom:30px;}
+.lcn_sec1 h3{font-size:25px; padding-bottom:20px;}
+.about-pg-sec2 p { font-size: 18px; line-height: 30px;}
+
+
+/* --25.03.22-- */
+
+ul.common_list{padding: 0;}
+ul.common_list li{padding: 0;}
+ul.common_list li { padding-left: 30px; background-image: url(../images/bullet-type1.png); background-repeat: no-repeat; background-position: 0px 4px; color: #232323; font-size: 18px; margin-bottom: 20px; line-height: 24px; text-align: left;}
+.bg_greys{background: #f3f3f3 !important;}
+
+.testimonial-sec.coach_testim .testimonials{padding-top: 0; margin-top: 0;}
+.testimonial-sec.coach_testim .testimonials-txt{padding: 0;}
+
+/* --28.03.22-- */
+
+.bgp_sec .business-coaching-sec1-top, .business-coaching-sec1.bg_greys .business-coaching-sec1-top{padding-bottom: 0;}
+.testimonial-sec.coach_testim .testimonials{border-radius: 15px; padding: 15px; padding-top: 20px;}
+
+
+/* --04.04.22-- Technology */
+
+.technology_sec{margin: 100px 0 0;}
+.technology_sec .title{padding-bottom: 100px;}
+
+.technology_sec .service_col{ background: #fff; border: 1px solid #fff; padding: 30px 15px 30px; margin-bottom: 75px;}
+.technology_sec .service_col .service_icon{margin: 0 0 50px;}
+.technology_sec .service_col h4{font-size: 24px; font-weight: 600; padding: 0 0 15px; }
+.technology_sec .service_col p{font-size: 15px; }
+.technology_sec .service_col:hover{border: 1px solid #f8f9fa;}
+
+
+
+
+/* --06.05.22-- */
+
+ul.call_now_sec li{font-size: 30px;}
+ul.call_now_sec li a.btn-type3 { color: #fff; background: #009fde; font-size: 20px; font-weight: 400;padding: 20px 50px; display: block; width: fit-content; margin: 0 auto 0; letter-spacing: 2px; white-space: nowrap;}
+ul.call_now_sec li a.btn-type3:hover { color: #fff; background-color: #024da1;}
+
+
+/* --End 06.05.22-- */
+
+/*--------------------------- Responsive Css starts here -----------------------------*/
+
+@media (max-width:1800px) {
+  
+  
+  /*Common css*/
+
+  
+  
+}
+
+
+
+
+@media (max-width:1599px) {
+  
+  
+/*Common css*/
+
+
+
+  
+}
+
+
+
+
+@media (max-width:1440px) {
+  
+  /*common css*/
+  section {padding-top: 70px;padding-bottom:70px;}
+
+  .title {}
+  .title h2{ font-size: 36px;    margin-bottom: 10px;}
+  .title h6{ font-size: 18px;}
+
+  .title2 h2{ font-size: 50px;}
+  .title2 h6{ font-size: 18px;}
+
+  .title3 h2{ font-size: 45px;}
+  .title3 h6{ font-size: 18px;}
+
+
+  .btn-type1{padding: 12px 25px;}
+
+
+  .mainnav ul li a{ font-size: 16px;}
+
+
+
+/*----------bootom contact sec---------------*/
+  .bootom-contact-col {padding: 40px 15px;}
+
+
+  /*-------------------footer css----------------*/
+  .footer-left-col h4,.footer-mid-col h4 {font-size: 18px;}
+  .footer-links li a{ font-size: 16px !important;}
+  .footer-mid-col ul li a {font-size: 14px;line-height: 21px;}
+  .bottom-footer p{ font-size: 16px !important;}
+  .footer-social li a {font-size: 15px;width: 36px;height: 36px;}
+
+
+  /*-----------home page css----------------*/
+  .home-top-banner-wrap .carousel-caption {left: 0; right: 0;}
+  .home-top-banner-wrap .carousel-caption h2{ font-size: 55px;margin-bottom: 18px;}
+  .home-top-banner-wrap .carousel-caption h5 {font-size: 32px;margin-bottom: 18px;}
+  .home-top-banner-wrap .carousel-caption p {font-size: 16px;}
+  .home-top-banner-wrap .carousel-caption .btn-type1{ font-size: 17px;}
+  
+  /*----------Home About sec-----------*/
+  .about-us-section p ,.about-us-section h5{font-size: 22px;line-height: 36px;}
+
+  /*----------Home call us sec-----------*/
+  .Home-call-us-sec{}
+  .Home-call-us-sec h2 {font-size: 32px;}
+  .Home-call-us-sec h6 {font-size: 20px;}
+  .Home-call-us-sec h5 a{font-size: 18px;}
+
+
+  /*----------Home Available properties sec-----------*/
+  .services-box-text h4 a{ font-size: 18px;}
+
+
+  /*----------Homeonline application sec-----------*/
+  .online-application-sec {padding-top: 140px; padding-bottom: 140px;}
+  .online-application-sec h6{ font-size: 16px;}
+  .online-application-sec h2{ font-size: 50px;}
+  .online-application-sec ul li{font-size: 15px;margin-bottom: 8px;}
+
+
+
+
+  /*----------Inner page sec-----------*/
+  .inner-page-banner {height: 450px;}
+  .inner-page-banner-txt h3{ font-size: 55px;}
+  .inner-page-banner-txt h5{ font-size: 22px;}
+
+
+/*----------About us page sec-----------*/
+  .zigzag-full-sec-inner{ min-height: 480px;}
+  .about-zigzag1 h5 {font-size: 20px;line-height: 36px;}
+
+
+  /*----------Contact us page sec-----------*/
+  .contact-topsec-fourbox-inner {min-height: 251px;}
+
+
+
+  /*-------------------Life is a garden page css here-------------------*/
+  .life-is-garder-sec1 p, .life-is-garder-sec2 p{ font-size: 16px;}
+  .life-is-garder-sec2{ padding-top: 80px; padding-bottom: 80px;}
+
+  .single-testimonial-sec h3 {font-size: 28px;}
+
+
+  /*--------------Bonding the family seminar css here----------*/
+  .bonding-thefamily-sec1{ padding-bottom: 80px;}
+  .bonding-thefamily-sec1 p {font-size: 16px;}
+  .bonding-thefamily-sec2{ margin-bottom: 80px;}
+  .bonding-thefamily-sec2 ul li {font-size: 16px; margin-bottom: 10px; font-size: 16px;}
+
+
+
+  /*--------------parenting program page css here------------*/
+  .parenting-prog-sec1 p{ font-size: 16px;}
+  .innerpage-testimonial-sec .testimonials-txt p {font-size: 24px;}
+  .innerpage-testimonial-sec .testimonials-txt h5 {font-size: 18px; margin-top: 26px;}
+
+
+
+  /*-------------Testimonial page css here-------------*/
+  .testimonial-box .testi-desc p {font-size: 19px; line-height: 30px;}
+  .client-detaisl h4 {font-size: 17px;margin-bottom: 10px;}
+  .client-detaisl h5 {font-size: 16px;}
+
+
+
+  /*--------------Blog list page css here--------------*/
+  .blog-details .category {font-size: 16px;}
+  .blog-details h4{ font-size: 18px;}
+  .blog-details .read-more {font-size: 16px;}
+
+
+
+
+  /*----------------------------Corporate workshop page css here-----------------------------*/
+  .corporate-workshop-sec3 p {font-size: 16px;}
+
+  .corporate-workshop-testimonial h4 {font-size: 20px; line-height: 34px;}
+  .corporate-workshop-testimonial p {font-size: 16px !important;}
+  .innerpage-testimonial-sec .testimonials-txt h5 {font-size: 16px;}
+  .innerpage-testimonial-sec .testimonials-txt h6 {font-size: 16px; margin-top: 5px;}
+
+
+
+
+  /*------------------TUTTL page css here-----------------*/
+  .tuttl-testi-box p {font-size: 16px;line-height: 30px;}
+  .tuttl-testi-box h5 {font-size: 16px;}
+
+
+
+  /*-----------College bound program page css here----------*/
+  .colege-bound-btm-sec {padding-top: 200px; padding-bottom: 200px;}
+  .colege-bound-btm-sec h4 {font-size: 22px; line-height: 33px;}
+
+
+
+  /*-------meeting planner page css here--------*/
+  .reasons-sec-box h3 {font-size: 22px;}
+  .reasons-sec-box p {font-size: 16px;}
+  .reasons-sec-box {padding: 25px 25px;  min-height: 425px;}
+
+
+
+   /*------------------------------------------Business Coaching page css------------------------------------------*/
+   .business-coaching-sec1 {padding-top: 70px; padding-bottom: 70px;}
+  .business-coaching-sec1-top {padding-bottom: 60px;}
+  .business-coaching-sec7,.business-coaching-sec3 {padding-top: 80px; padding-bottom: 80px;}
+  .business-coaching-sec3 .geta-couch {margin: 40px auto 0;}
+
+  
+   /*---------PR Media page css-----------*/
+
+  .pr_box .reasons-sec-box{min-height: auto;}
+  
+}
+
+
+
+
+@media (max-width:1240px) {
+ 
+  
+/*Commpn css*/
+
+
+/*home page css*/
+.home-top-banner-wrap .carousel-caption{ max-width: 1200px; padding-left: 15px; padding-right: 15px;}
+
+  
+
+
+/*Header css*/
+.header{ margin-top: 8px;}
+.logo {max-width: 180px;}
+.header-top-contact ul li.contct-phn h5 a {font-size: 18px;}
+  
+/*Menu css*/   
+.mainnav ul li {padding: 0 5px;}
+  
+  
+ 
+
+/*Home page css*/
+.home-top-banner-wrap .carousel-caption h5 {font-size: 20px;}
+.home-top-banner-wrap .carousel-caption h2 {font-size: 45px;}
+.home-top-banner-wrap .carousel-caption p {font-size: 15px;margin: 0;}
+.home-top-banner-wrap .carousel-caption .btn-type1 {font-size: 16px; margin-top: 10px;}
+  
+
+.testimonial-sec .owl-carousel{ padding-left: 15px; padding-right: 15px;}
+
+
+
+
+
+  
+  
+  
+/*--------------------- Inner Page Banner css-----------------*/     
+.inner-banner-img img{ min-height: 350px; object-fit: cover;}
+  .inner-banner-txt h2{ font-size: 50px;}  
+  .inner-banner-wrap {margin-top: 95px;}
+  .inner-banner-txt{ padding-left: 15px; padding-right: 15px;}
+
+
+  
+/*--------------------- Apply form Page Banner css-----------------*/  
+  .apply-form-sec h5{ font-size: 20px;}
+  .custom-control .custom-control-label{ margin-top: 0;}
+
+  /*--------------------- Maintanance Page Banner css-----------------*/ 
+  .maintanance-request-form-wrap .site-details h3 {font-size: 22px;}
+
+/*--------------------- Contact us Page Banner css-----------------*/   
+  .contact-us-form-wrap h3{ font-size: 34px;}
+  .contact-topsec-fourbox-inner {min-height: 202px;padding: 14px;}
+  .contact-topsec-fourbox-inner h4{ font-size: 18px;}
+  .contact-topsec-fourbox-inner h5{ font-size: 14px;}
+  .contact-topsec-fourbox-inner p {font-size: 13px; margin-bottom: 3px; line-height: 21px;}
+  
+  
+
+
+
+/*---------------------keynote speaking page css------------------------*/
+.keynote-speaking-testi .testimonials-txt {padding: 15px;}
+.testimonial-sec .testimonials p {font-size: 15px; line-height: 25px;}
+.keynote-speaking-testi .testimonials-txt .txt {min-height: 260px;}
+.keynote-speaking-testi .testimonials-txt h5 {min-height: 64px;}
+  
+
+
+/*------------------------------------------Business Coaching page css------------------------------------------*/
+.business-coaching-sec5 .card-header{ padding-right: 30px;}
+.business-coaching-sec5 .card-header h5 .btn-link{ text-align: left;font-size: 18px;}
+.wrapper .card .circle{ height: 100px; width: 100px;}
+.wrapper .card .circle canvas{ max-width: 100px; height: 100px !important;}
+.card .circle .box span, .wrapper .card .text{ font-size: 17px;}
+.business-coaching-sec6 .wrapper .card{ height: auto;}
+
+ /*---------PR Media page css-----------*/
+
+ .pr_box .reasons-sec-box{min-height: auto;}
+
+
+ /* --15.03.22-- */
+ .mrb{margin-bottom: 120px !important;}
+
+
+
+
+
+
+}
+
+
+
+
+@media (max-width:991px) {
+  
+
+/*---------------------Common css---------------------*/
+section {padding-top: 40px;padding-bottom: 40px;}
+.title{ margin-bottom: 25px;}
+.title h2 {font-size: 32px;line-height: 45px;}
+.title2 h2 {font-size: 36px;}
+.title3 h2 {font-size: 32px;}
+
+
+  
+  
+   /*---------------Header sec css-----------------*/
+   .header-payment-options { margin-left: 0; margin-right: 15px;margin-top: -3px;}
+   .header-payment-options .btn{ padding: 5px 10px;}
+   .logo {margin: 5px 0;max-width: 171px;}
+
+
+  /*---------------Bottom contact sec css-----------------*/
+   .bootom-contact-col {padding: 15px;justify-content: center;}
+  
+
+
+
+
+/*menu css*/
+  .mainnav{ justify-content: flex-end;}
+  
+  
+  
+  
+.menu-button{margin: 0; outline: none !important;background:url(../images/mb_menu.png) no-repeat;height:32px;width:40px;display:block;border:none;cursor:pointer;margin: 0;float:right;border-radius: 2px;position: relative;right: 0px; z-index:999;top: 0;}
+.menu-button.open{background:url(../images/mb_menu.png) no-repeat}
+  
+  
+  .header_right {position: relative;float: none;}  
+  .right_header {padding: 20px 0px 0px;}
+  
+.mobile_primary{display:none;background:#024da1 ;position:absolute;right:0;width:100%;top:90px;z-index:999999;}
+.mobile_primary ul{list-style:none;margin:0;padding:0}
+.mobile_primary li{ /*border-bottom:1px solid #fff;*/display:block;position:relative;padding:0;background:none; float:none;}
+.mobile_primary li:first-child{border-top:none}
+.mobile_primary .sub-menu{display:none}
+
+.mobile_primary .sub-menu li:first-child{border-top:1px solid #fff}
+.mobile_primary li ul.sub-menu li a{padding:10px 20px; line-height:30px; color: #fff !important;}
+.mobile_primary .sub-menu .sub-menu a{padding:15px 0 15px 50px}
+.mobile_primary .sub-menu--button{background:#0b5cb7 url(../images/submenu.png) no-repeat center;cursor:pointer;display:inline-block;height:46px;position:absolute;right:0;top:0;width:46px;z-index:9999999999999; border-right:1px solid #0b5cb7; border-top:1px solid #0b5cb7;}
+.mobile_primary .sub-menu--button.open{background:#0b5cb7 url(../images/submenu_h.png) no-repeat center;}
+.mobile_primary .sub-menu li { display:block}
+.mobile_primary li:hover>.sub-menu { top:0}
+.page-header__primary{display:none}
+.mobile_primary li:hover .sub-menu {display:none; position:relative}
+.mobile_primary .sub-menu { position:relative; top:0; width:auto;    padding: 0 0 0 15px; border-color:#0b5cb7; background-color:#0b5cb7;  }
+.mobile_primary li.dropdown a:after { background:none; }
+.mobile_primary  ul li:hover .sub-menu { display:none}
+.mobile_primary ul li ul.sub-menu li {padding: 5px 0;}
+.mobile_primary ul li ul.sub-menu li {padding: 0; border-color: #0b5cb7;}
+  
+  .mainnav ul li {padding: 0px 0px 0px 0;float: none;display: block;    text-align: left;}    
+  .mainnav ul li a{ padding: 10px; color: #fff;}
+.mainnav ul li a:hover, .mainnav ul li.active a {border-radius: 0; color: #25ade3 ;}
+.sub-menu::before { display: none !important;}
+  .sub-menu::after {display: none;}
+.sub-menu {background: #231f20;}
+.mobile_primary .sub-menu li:first-child {border-top: none;}
+  
+  
+  .mobile_primary ul li.menu-item-has-children:hover a {color:#fff;background: #0b5cb7;}
+  .mobile_primary  ul li.menu-item-has-children .sub-menu li a:hover, .mobile_primary  ul li.menu-item-has-children.active a {color:#fff;}
+
+
+
+
+  /*-------------------home page css-----------------*/
+  .carousel-item img{height: 450px; object-fit: cover;}
+
+  /*banner css*/
+  .home-top-banner-wrap .carousel-caption{ padding: 70px 0 0;}
+  .home-top-banner-wrap .carousel-caption {max-width: 100%;left: 0;right: auto;padding: 0 15px;}
+  .home-top-banner-wrap .carousel-caption-inner { max-width: 66%;}
+  .home-top-banner-wrap .carousel-caption h5 {font-size: 20px;}
+  .home-top-banner-wrap .carousel-caption h2 {font-size: 36px;}
+  
+  /*brand css*/
+  .brand-sec{ padding-top: 40px; padding-bottom: 40px;}
+
+
+
+  /*about us sec*/
+  .about-img{ margin-bottom: 25px;}
+  .about-us-section p, .about-us-section h5 {font-size: 18px;line-height: 26px;}
+  
+  /*testimonial us sec*/
+  .testimonial-sec .testimonials-txt {padding: 45px 30px 0px;}
+  
+ 
+  /*Home coll sec*/
+  .Home-call-us-sec h2 {font-size: 30px; margin-bottom: 20px;}
+
+
+
+/*-----------------------------Inner banner  css------------------------------------*/ 
+.inner-page-banner {height: 300px; }
+.inner-page-banner-txt h3{ font-size: 36px;}
+.inner-page-banner-txt h5{ font-size: 18px;}
+
+
+
+/*---------------------common structure css---------------------------------*/
+
+.image-text-wrap-sec  img{ width: 100%; }
+.r-img img{ float: right; margin: 0 0 25px 0px;}
+
+.zigzag-full-sec-inner{ justify-content: center; min-height: auto; padding: 50px 0 ;}
+.zigzag-sec2 .zigzag-full-sec-inner { justify-content: center;}
+.zigzag-full-sec-wrap {max-width: 740px; margin:0;}
+.zig-zag-full-sec-img {height: 500px; order: 1;}
+.zig-zag-full-sec-txt{ order: 2;}
+
+
+/*---------------------About us page css---------------------------------*/
+.about-pg-sec1 .special-notifications-box {padding: 25px;}
+
+
+
+/*---------------------Apply form page css---------------------------------*/
+.apply-form-wrap {padding: 40px;}
+
+/*---------------------Contact us page css---------------------------------*/
+.contact-topsec-cont {margin-top: 50px;}
+.contact-topsec-cont .contact-topsec-fourbox{ margin-top: 30px;}
+
+
+
+/*-------------------------------------------View Properties Details page css here-------------------------------------------*/
+.property-details-accomodation ul li{ width: 13%;}
+.property-details-accomodation ul li.location{ width: 35%;}
+
+
+
+
+/*-------------------Life is a garden page css here-------------------*/
+.life-is-garder-sec2 {padding-top: 40px; padding-bottom: 40px; padding-right: 45%; background-color: #f4f7fa;}
+.single-testimonial-sec h3 {font-size: 24px;}
+.life-is-garder-sec1 {padding-bottom: 70px;}
+
+
+
+/*--------------Bonding the family seminar css here----------*/
+.bonding-thefamily-sec2 {margin-bottom: 0;}
+
+
+
+   /*--------------parenting program page css here------------*/
+   .innerpage-testimonial-sec .testimonials-txt{ padding-left: 15px; padding-right: 15px;}
+   .innerpage-testimonial-sec .testimonials-txt p {font-size: 20px;}
+
+
+
+
+   /*--------------Blog list page css here--------------*/
+   .blog-list-inner {column-count: 2;}
+
+
+/*-----------College bound program page css here----------*/
+.colege-bound-btm-sec {padding-top: 150px; padding-bottom: 150px;}
+.colege-bound-btm-sec h4 {font-size: 20px; line-height: 30px;}
+
+
+
+/*-------meeting planner page css here--------*/
+.meeting-planers-img1 .read-more-btn {margin: 15px 0 40px;}
+
+
+
+/*---------------------keynote speaking page css------------------------*/
+.keynote-speaking-testi .testimonials-txt .txt {min-height: inherit;}
+.keynote-speaking-testi .owl-nav .owl-next{ right: -15px;}
+
+
+ /*------------------------------------------Business Coaching page css------------------------------------------*/
+ .business-coaching-sec1 {padding-top: 40px; padding-bottom: 40px;}
+ .business-coaching-sec1-top {padding-bottom: 30px;}
+ .business-coaching-sec7,.business-coaching-sec3 {padding-top: 50px; padding-bottom: 50px;}
+ .business-coaching-sec3 .geta-couch {margin: 20px auto 0;}
+
+
+ /*------------------------------------------Life coaching page css------------------------------------------*/
+
+ .lic_faq .card-header .btn-link {font-size: 20px;}
+ .lic_faq .card-header h2 .btn.btn-link{ white-space: pre-wrap; text-align: left;}
+ .life_coaching_sec4 .cesule_btn a.btn { letter-spacing: 0px;}
+
+
+/* --10.03.22-- */
+.nc_sec3 .container{max-width: 100%;}
+.nc_sec4 .zigzag-full-sec-wrap{max-width: 100%;}
+.nc_sec1 .row{flex-direction: column-reverse;}
+/* .nc_sec2 .zig-zag-full-sec-img{order: 2;}
+.nc_sec2 .zig-zag-full-sec-txt{order: 1;} */
+.nc_sec3 .row{flex-direction: column-reverse;}
+.about-txt-wrap.about_rt.nc_img1{float: none;}
+.nc_sec1 img, .nc_sec2 img, .nc_sec3 img, .nc_sec4 img{margin-bottom: 30px;}
+.nc_sec2 .zig-zag-full-sec-img, .nc_sec4 .zig-zag-full-sec-img{margin-bottom: 30px;}
+
+.digi_marketing_sec.testimonial-sec .testimonials-txt { padding: 45px 30px 45px;}
+.digi_marketing_row.zig-zag-full-sec { margin: 40px 0;}
+.digi_marketing_row.zig-zag-full-sec  .zig-zag-full-sec-img{margin-bottom: 30px;}
+
+}
+
+
+
+
+@media (max-width:767px) {
+
+  
+  
+  /*common css*/   
+  section{ padding-top: 50px; padding-bottom: 50px;}
+  
+
+
+  /*-----------------footer css-----------------*/
+  .footer-left-col h4,.footer-mid-col h4{ font-size: 18px; text-align: center;}
+  .footer-links {text-align: center;max-width: 320px; margin: 0 auto 30px;}
+  .footer-links br{ display: none;}
+
+    .footer-details h4{ text-align: center;}
+    .footer-left-col ul li {text-align: center;}
+        .footer-links li{ text-align: center;}
+
+        .footer-social{ text-align: center;}
+
+  /*home page css*/
+  .about-txt{ margin-top: 30px;}
+  
+ 
+    /*------------Inner banner css--------------*/
+    .inner-page-banner-txt{ text-align: center;}
+    .inner-page-banner{    background-position: center;}
+    .inner-page-banner-txt h3 {font-size: 24px;}
+    .inner-page-banner-txt h5{ font-size: 15px; margin-top: 10px;}
+
+
+    /*------------About us page css--------------*/
+    
+  
+
+    /*-------------------------------------------View Properties Details page css here-------------------------------------------*/
+    .property-details-accomodation { margin-left: 20px;width: calc(100% - 40px); padding: 15px;}
+    .property-details-accomodation ul {flex-wrap: wrap;}
+    .property-details-accomodation ul li {width: 25%; padding: 10px;    border-bottom: 1px solid #c2c2c2;}
+    .property-details-accomodation ul li.location {width: 75%; border-bottom: none;background-position: 10px 13px; background-size: inherit;}
+    .property-details-accomodation ul li:nth-of-type(4){ border-right: none;}
+    .property-details-accomodation ul li:nth-of-type(5){ border-bottom: none;}
+
+    .property-details-cont-img{ margin-bottom: 25px;}
+
+    .pricing-left{text-align: center !important; }
+    .pricing-btn{ text-align: center !important; margin-top: 15px;}
+
+
+
+    /*-------------Testimonial page css here-------------*/
+    .testi-pg-sec{ padding-top: 50px;}
+    .testimonial-box{ padding: 20px;}
+    .testimonial-box .testi-desc p {font-size: 16px; line-height: 27px;}
+    .testi-btm{ column-gap: 10px;flex-wrap: wrap;}
+    .client-img{ margin-bottom: 15px;}
+
+
+     /*-------meeting planner page css here--------*/
+     .brandlogo-slider-sec .owl-prev{ margin-left: 0;}
+     .brandlogo-slider-sec .owl-next{ margin-right: 0;}
+
+
+
+     /*------------------------------------------Business Coaching page css------------------------------------------*/
+     .banner-btm-sec .col-md-12{    flex-wrap: inherit;}
+     .banner-btm-sec .geta-couch{ margin-top: 25px;}
+     .circle-progress-bar-wrap .wrapper {flex-wrap: wrap; justify-content: center;}
+     .business-coaching-sec6 .wrapper .card{ width: 33.33%; margin-bottom: 25px;}
+
+
+     /* Blog Details */
+
+     .blog_sign_row{display: block; text-align: center;}
+     .blog_sign_row h5{margin: 0 0 20px;}
+     .blog_sign_row .read-more-btn{margin: 0 auto;}
+     .blog_details_sec3{padding-top: 0;}
+     .blog_details_sec3 H3{font-size: 20px;}
+      .image-wrapper.about_img.float-right{ float: none !important; margin-bottom: 30px;}
+      .image-wrapper.about_img img{width: 100%;}
+      .blog_video{margin-bottom: 30px;}
+
+
+      /* Life Coaching */
+
+      .lc_right .lc_n, .lc_left .lc_n { position: relative;margin: 50px auto;left: 0;}
+      .lc_left, .lc_right, .lc_box_right{border: none; width: 100%; padding: 15px;}
+      .lc_box_left, .lc_box_right{width: 100%; text-align: center;}
+      .life_coaching_sec3_top h2 br{display: none;}
+
+      /* --06.05.22-- */
+
+      .brand-sec ul.call_now_sec li { font-size: 22px;}
+
+}
+
+
+
+@media (max-width:575px) {
+
+
+  
+  /*common css*/ 
+  .title {margin: 0 0 20px;}
+  .title2 {margin: 0 0 20px;}
+  .title h2 {font-size: 26px; line-height: 32px;    }
+  .title h6 {font-size: 16px; line-height: 25px;}
+  
+  section {  padding-top: 30px; padding-bottom: 30px;}
+  
+
+
+  /*Header css*/
+  .logo {max-width: 270px; margin: 0 auto;float: none;}
+  .header-top-contact {text-align: center;margin-bottom: 10px;  margin-top: 10px; display: none;}
+  .header {margin-top: 0px;margin-bottom: 0px; padding: 5px 0; position: relative; background-color: #fff;}
+  .menu-button{float: none; margin: 0 auto; text-align: center;background-position: center !important;}
+  .mobile_primary{ top: 37px;}
+  .mainnav{ margin: 0;}
+
+  .header-payment-options {margin: 0 auto;}
+
+
+  .header-top-contact ul .social{ border-left: none; padding-left: 0; margin-left: 0;}
+
+
+
+
+  /*Footer css*/
+  .upper-footer{ padding: 0;}
+  .footer-details { padding-top: 30px; padding-bottom: 30px;}
+  .footer-left-col ul li a{ font-size: 16px; line-height: 24px;}
+
+
+
+   /*------------------------Inner banner css-----------------------*/
+      .inner-page-banner {height: 200px; padding-top: 0px;}
+
+
+
+   /*--------------------home page css------------------------*/
+   .home-top-banner-wrap .carousel-caption {max-width: 262px;}
+   .carousel-item img{height: 260px;  object-fit: cover; object-position: right;}
+   .home-top-banner-wrap .carousel-caption {max-width: 100%;left: 0;padding:0 15px;}
+
+   .home-top-banner-wrap .carousel-caption h5 {font-size: 16px; margin: 0;}
+   .home-top-banner-wrap .carousel-caption h2 {font-size: 18px;    margin: 0 0 5px;}
+  
+   .home-top-banner-wrap .carousel-caption .btn-type1 {font-size: 15px; margin-top: 10px; padding: 12px 70px  12px 35px !important;}
+
+   .home-top-banner-wrap .carousel-control-prev,.home-top-banner-wrap .carousel-control-next{ width: 30px;}
+   
+
+   /*home brand sec css*/
+   .brand-sec h3{ font-size: 22px; letter-spacing: 3px;margin-bottom: 20px;}
+   .brand-sec ul{flex-wrap: wrap; justify-content: center;}
+   .brand-sec ul li{ width: 100%; text-align: center; margin:15px  0;}
+
+
+
+   .after-brand-txt p {font-size: 16px; line-height: 26px;}
+
+
+
+
+  /*home call us page css*/ 
+   .Home-call-us-sec h2 { font-size: 24px;}
+   
+
+   
+
+   /*home About us page css*/
+   .about-img {margin-bottom:0;}
+   .about-us-section p, .about-us-section h5 { font-size: 16px; line-height: 26px;}
+
+
+   /*home special notifications page css*/
+   .special-notifications-box {padding: 30px 15px;}
+
+   /*home Testimonials page css*/
+   .testimonial-sec .title h5{ font-size: 18px;}
+   .testimonial-sec .testimonials p{ font-size: 16px;}
+   .testimonial-sec .testimonials h3 {font-size: 26px;}
+   .testimonial-sec .testimonials-txt { padding: 30px 15px 0px;    }
+   .testimonial-sec .testimonials h5 {font-size: 16px; line-height: 24px;  margin: 0 0 15px;}
+
+
+   /*---------------------About us page css---------------------------------*/
+   .about-pg-sec1 .special-notifications-box {padding: 15px;}
+
+   .zigzag-full-sec-wrap{ padding: 0;}
+   .zig-zag-full-sec-img {height: 250px;}
+
+
+    /*---------------------View properties page css---------------------------------*/
+    .view-properties-sec {padding-bottom: 10px;}
+    .properties-img img{ width: 100%;}
+
+
+/*---------------------View properties Detaisl page css---------------------------------*/
+.property-details-accomodation ul li {width: 33.33%;padding: 6px;}
+.property-details-accomodation ul li:nth-of-type(3){border-right: none;}
+.property-details-accomodation ul li:nth-of-type(4){border-bottom: none;}
+.property-details-accomodation ul li:nth-of-type(5){ border-right: none;border-left: 1px solid #c2c2c2;}
+.property-details-accomodation ul li.location {border-top: 1px solid #c2c2c2;width: 100%;}
+
+
+.back-btn-wrap {margin-top: 20px;}
+
+
+
+
+/*-------------------------------------------Apply online form page css here-------------------------------------------*/
+.apply-form-wrap{ padding: 15px;}
+
+.form-btn-wrap .btn{float: none !important;margin: 0 auto 15px; display: block;}
+.form-btn-wrap .btn:last-child{ margin-bottom: 0;}
+
+
+
+
+/*-------------------Life is a garden page css here-------------------*/
+.life-is-garder-sec2 {padding-top: 180px; padding-bottom: 30px; padding-right: 15px;}
+.single-testimonial-sec h3 {font-size: 18px;}
+.single-testimonial-sec h4 {font-size: 18px;}
+.single-testimonial-sec h5 {font-size: 16px;}
+
+
+
+
+/*--------------Blog list page css here--------------*/
+.blog-list-inner {column-count: 1;}
+
+
+
+/*------------------TUTTL page css here-----------------*/
+.tuttl-testi-box{ margin-bottom: 15px;}
+
+
+/*-----------College bound program page css here----------*/
+.colege-bound-btm-sec {padding-top: 60px; padding-bottom: 60px;}
+.colege-bound-btm-sec h4 {font-size: 16px; line-height:26px;}
+
+
+
+
+/*-----------meeting planner page css here----------*/
+.meeting-planers-img1 .read-more-btn{font-size: 13px; padding: 12px 15px; letter-spacing: 0px;}
+.reasons-sec-box{ min-height: auto;}
+
+
+
+/*---------------------keynote speaking page css------------------------*/
+.keynote-speaking-testi .testimonials-txt{ padding: 15px;}
+.keynote-speaking-sec3-col ul li {font-size: 16px; margin-bottom: 15px;}
+.keynote-speaking-testi .testimonials-txt h3{ font-size: 16px;}
+
+
+
+/*---------------------life coaching page css------------------------*/
+.gr-img img{width: 100%;}
+.life_coachinf_img1 { float: none; width: 100%; margin: 0 0 20px;}
+
+
+/*---------------------executive business coaching page css------------------------*/
+.exe_busi img{width: 100%;}
+
+
+/* ---digital marketing--- */
+.digi_marketing_sec.testimonial-sec.keynote-speaking-testi .owl-nav{display: none !important;}
+
+}
+
+.footer-mid-col.footer-last-col h6{color: #fff; text-align: left; font-weight:600; font-size: 22px; padding: 0 0 15px;}
+.addressDetails.addressDetails_ftr p {text-align: left; color: #fff;}
+@media (max-width : 767px) {
+.footer-mid-col.footer-last-col, .addressDetails.addressDetails_ftr {text-align: center; color: #fff;}
+.footer-mid-col.footer-last-col h6{text-align: center; font-weight:600; font-size: 22px; padding: 30px 0 15px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
